@@ -1,0 +1,13 @@
+{
+	"settings": {
+		"alwaysOnTop": false,
+		"showOnTray": true,
+		"showNotification": true,
+		"confirmImagePaste": true,
+		"startup": false,
+		"downloads": "/home/fx/Downloads",
+		"blockRecall": false,
+		"rememberConversation": false,
+		"showRedIcon": true
+	}
+}

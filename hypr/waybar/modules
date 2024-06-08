@@ -1,0 +1,198 @@
+
+{
+  "hyprland/window": {
+    "format": "{title}",
+      "rewrite": {
+        "(.*) - Mozilla Firefox": "🌎 $1",
+        "(.*) - zsh": "> [$1]"
+      }
+  },
+    "hyprland/workspaces": {
+      "format": "{icon}",
+      "on-click": "activate",
+      "all-outputs": true,
+      "format-icons": {
+        "1": "1 󰣇 ",
+        "2": "2  ",
+        "3": "3 󰨞 ",
+        "4": "4  ",
+        "5": "5 󰎆 ",
+        "6": "6 󰐝 ",
+        "7": "7  ",
+        "8": "8 󰩄 ",
+        "9": "9  ",
+        "10": "0  ",
+        "urgent": "",
+        "default": ""
+      },
+      "sort-by-number": true
+    },
+    // waybar-backlight
+    "backlight": {
+      "interval": 2,
+      "align": 0,
+      "rotate": 0,
+      //"device": "amdgpu_bl0",
+      "format": "{icon} {percent}%",
+      "format-icons": ["", "", "󰽤", ""],
+      // Commands to execute on events
+      "on-click": "",
+      "on-click-middle": "",
+      "on-click-right": "",
+      "on-update": "",
+      "on-scroll-up": "brightnessctl s +5%",
+      "on-scroll-down": "brightnessctl s 5%-",
+      "smooth-scrolling-threshold": 1,
+    },
+
+    // waybar-battery
+    "battery": {
+      "interval": 60,
+      "align": 0,
+      "rotate": 0,
+      //"bat": "BAT1",
+      //"adapter": "ACAD",
+      "full-at": 100,
+      "design-capacity": false,
+      "states": {
+        "good": 95,
+        "warning": 30,
+        "critical": 15
+      },
+      "format": "{icon} {capacity}%",
+      "format-charging": " {capacity}%",
+      "format-plugged": " {capacity}%",
+      "format-full": "{icon} Full",
+      //"format-good": "",
+      "format-alt": "{icon} {time}",
+      "format-icons": ["", "", "", "", ""],
+      "format-time": "{H}h {M}min",
+      "tooltip": true,
+    },
+
+    // waybar-clock
+    "clock": {
+      "interval": 60,
+      "align": 0,
+      "rotate": 0,
+      //"timezone": "America/New_York",
+      "tooltip-format": "<big>{:%B %Y}</big>\n<tt><small>{calendar}</small></tt>",
+      "format": "{:%I:%M %p}",
+      "format-alt": "{:%a %b %d, %G}"
+    },
+
+    // waybar-cpu
+    "cpu": {
+      "interval": 5,
+      "format": "cpu: {usage}%",
+    },
+
+    // waybar-custom
+    "custom/menu": {
+      "format": "",
+      "tooltip": false,
+      "on-click": "bash $HOME/.config/hypr/scripts/menu",
+    },
+
+    "custom/power": {
+      "format": "  ⏻  ",
+      "tooltip": false,
+      "on-click":"archlinux-logout",
+    },
+
+    // waybar-disk
+    "disk": {
+      "interval": 30,
+      "format": "free: {free}",
+    },           	
+
+    // waybar-memory
+    "memory": {
+      "interval": 10,
+      "format": "used: {used:0.1f}G",
+    },
+
+    // waybar-mpd
+    "mpd": {
+      "interval": 2,
+      "unknown-tag": "N/A",
+
+      "format": "{stateIcon} {artist} - {title}",
+      "format-disconnected": " Disconnected",
+      "format-paused": "{stateIcon} {artist} - {title}",
+      "format-stopped": "Stopped ",
+      "state-icons": {
+        "paused": "",
+        "playing": ""
+      },
+      "tooltip-format": "MPD (connected)",
+      "tooltip-format-disconnected": "MPD (disconnected)",
+      // Commands to execute on events
+      "on-click": "mpc toggle",
+      "on-click-middle": "mpc prev",
+      "on-click-right": "mpc next",
+      "on-update": "",
+      "on-scroll-up": "mpc seek +00:00:01",
+      "on-scroll-down": "mpc seek -00:00:01",
+      "smooth-scrolling-threshold": 1,
+    },
+
+    // waybar-network
+    "network": {
+      "interval": 5,
+      //"interface": "wlan*", // (Optional) To force the use of this interface, set it for netspeed to work
+      "format-wifi": " {essid}",
+      "format-ethernet": " {bandwidthUpBits} |  {bandwidthDownBits}",
+      "format-linked": " {ifname} (No IP)",
+      "format-disconnected": "Disconnected",
+      "format-disabled": "Disabled",
+      "format-alt": " {ipaddr}/{cidr}",
+      "tooltip-format": " {ifname} via {gwaddr}",
+    },
+
+    // waybar-pulseaudio
+    "pulseaudio": {
+      //"format": "{volume}% {icon} {format_source}",
+      "format": "{icon} {volume}%",
+      "format-muted": " Mute",
+      "format-bluetooth": " {volume}% {format_source}",
+      "format-bluetooth-muted": " Mute",
+      "format-source": " {volume}%",
+      "format-source-muted": "",
+      "format-icons": {
+        "headphone": "",
+        "hands-free": "",
+        "headset": "",
+        "phone": "",
+        "portable": "",
+        "car": "",
+        "default": ["vol"]
+      },
+      "scroll-step": 5.0,
+      // Commands to execute on events
+      "on-click": "amixer set Master toggle",
+      "on-click-right": "pavucontrol",
+      "smooth-scrolling-threshold": 1,
+    },
+
+    // waybar-tray
+    "tray": {
+      "icon-size": 16,
+      "spacing": 10
+    },
+    "custom/changewaybar": {
+      "on-click": "~/.bin/change-waybar-hyprland",
+      "tooltip": true,
+      "tooltip-format": "Swap between waybar configs",
+      "format": "CW "
+    },
+    "custom/cycle_wall":{
+        "format":"           ",
+        "tooltip": false,
+        "on-click": "~/.config/hypr/scripts/wall",
+        // "exec": "echo 0 > /tmp/current_wall",
+        // "interval": 1,
+        // "on-click": "~/.config/hypr/scripts/tools/expand cycle"
+    }
+
+}

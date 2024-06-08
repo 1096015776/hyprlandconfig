@@ -1,0 +1,2 @@
+swayidle -w \
+timeout 600 'hyprlock & systemctl suspend'

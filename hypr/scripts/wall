@@ -1,0 +1,16 @@
+TEMP=/tmp/current_wall
+files=(~/.config/hypr/bg/*)
+index=$(cat $TEMP)
+if [ ! -f $TEMP ]; then
+  index=0 
+else
+  index=$((index+1))
+fi
+
+if [ $index -ge ${#files[@]} ]; then
+    index=0
+fi
+echo $index > $TEMP
+swww img ${files[$index]} --transition-type outer --transition-step 90 --transition-pos 0.854,0.977 
+
+

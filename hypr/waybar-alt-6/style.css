@@ -1,0 +1,232 @@
+/** ********** Fonts ********** **/
+* {
+    font-family: "JetBrains Mono";
+    font-size: 15px;
+    /*color: #ECEFF4;*/
+}
+
+/** ********** Waybar Window ********** **/
+window#waybar {
+    background: transparent;
+	color: #1e1e2e;
+    /*color: #ECEFF4;*/
+	border-color: #072112;
+    
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#window{
+  color: #ECEFF4;
+}
+
+
+window#waybar.hidden {
+    opacity: 0.5;
+}
+
+/** ********** Backlight ********** **/
+#backlight {
+	background-color: #cba6f7;
+}
+
+/** ********** Battery ********** **/
+#battery {
+	background-color: #f9e2af;
+}
+
+#battery.charging {
+}
+
+#battery.plugged {
+}
+
+@keyframes blink {
+    to {
+        color: #000000;
+    }
+}
+
+#battery.critical:not(.charging) {
+	background-color: #f38ba8;
+    color: #f38ba8;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/** ********** Clock ********** **/
+#clock {
+	background-color: #a6e3a1;
+}
+
+/** ********** CPU ********** **/
+#cpu {
+	background-color: #89dceb;
+}
+
+/** ********** Memory ********** **/
+#memory {
+	background-color: #eba0ac;
+}
+
+/** ********** Disk ********** **/
+#disk {
+	background-color: #b4befe;
+}
+
+/** ********** Tray ********** **/
+#tray {
+  background-color: #94e2d5;
+  padding: 0 12px;
+  margin: 4px 4px 4px 4px;
+  border-radius: 90px;
+  background-clip: padding-box;
+}
+/** ********** MPD ********** **/
+#mpd {
+	background-color: #94e2d5;
+}
+
+#mpd.disconnected {
+	background-color: #f38ba8;
+}
+
+#mpd.stopped {
+	background-color: #f5c2e7;
+}
+
+#mpd.playing {
+	background-color: #74c7ec;
+}
+
+#mpd.paused {
+}
+
+/** ********** Pulseaudio ********** **/
+#pulseaudio {
+	background-color: #fab387;
+}
+
+#pulseaudio.bluetooth {
+	background-color: #f5c2e7;
+}
+#pulseaudio.muted {
+	background-color: #313244;
+	color: #cdd6f4;
+}
+
+/** ********** Network ********** **/
+#network {
+	background-color: #89b4fa;
+}
+
+#network.disconnected,#network.disabled {
+	background-color: #313244;
+	color: #cdd6f4;
+}
+#network.linked {
+}
+#network.ethernet {
+}
+#network.wifi {
+}
+
+/** ********** Custom ********** **/
+#custom-menu, #custom-power, #custom-weather, #custom-updater, #custom-changewaybar,#custom-cycle_wall {
+	border-radius: 4px;
+	margin: 6px 0px;
+	padding: 2px 8px;
+}
+
+#custom-menu {
+	background-color: #f5c2e7;
+	padding: 0 12px;
+    margin: 4px 4px 4px 4px;
+    border-radius: 90px;
+    background-clip: padding-box;
+}
+
+#custom-power {
+	background-color: #f38ba8;
+	padding: 0 12px;
+    margin: 4px 4px 4px 4px;
+    border-radius: 90px;
+    background-clip: padding-box;
+}
+
+#custom-updater {
+	background-color: #e6ed7b;
+	margin-right: 6px;
+	padding: 2px 8px;
+	font-size: 12px;
+}
+
+#custom-weather {
+	background-color: #cba6f7;
+	margin-right: 6px;
+	padding: 2px 8px;
+	font-size: 12px;
+}
+
+#custom-changewaybar {
+	background-color: #cba6f7;
+	margin-right: 6px;
+	padding: 2px 8px;
+	font-size: 12px;
+}
+
+/** Common style **/
+#backlight, 
+#battery,
+#clock,
+#cpu,
+#disk,
+#mode,
+#memory,
+#mpd,
+#tray,
+#pulseaudio,
+#network,
+#custom-changewaybar
+{
+  padding: 0 12px;
+  margin: 4px 4px 4px 4px;
+  border-radius: 90px;
+  background-clip: padding-box;
+}
+
+#workspaces {
+	border-radius: 4px;
+	margin: 4px 0px;
+	padding: 0px 4px;
+}
+
+#workspaces button {
+  background-color: #3B4252;
+  color: #D8DEE9;
+  /* border: 2px solid #3a3b3c; */
+  margin-right: 2px;
+  border-radius: 10px;
+}
+
+#workspaces button.active {
+  background-color: #4C566A;
+  color: #ECEFF4;
+  /*color: #3A3B3C;*/
+}
+
+#custom-cycle_wall{
+    /*width:10px;*/
+    /*height:10px;*/
+    background: rgb(245,194,231);
+    background: linear-gradient(45deg, rgba(245,194,231,1) 0%, rgba(203,166,247,1) 0%, rgba(243,139,168,1) 13%, rgba(235,160,172,1) 26%, rgba(250,179,135,1) 34%, rgba(249,226,175,1) 49%, rgba(166,227,161,1) 65%, rgba(148,226,213,1) 77%, rgba(137,220,235,1) 82%, rgba(116,199,236,1) 88%, rgba(137,180,250,1) 95%); 
+    color: #fff;
+    background-size: 500% 500%;
+    animation: gradient 7s linear infinite;
+    font-weight:  bolder;
+    border-radius: 15px;
+}
+

@@ -1,0 +1,614 @@
+2024-06-05 21:52:33: App: "Profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:52:33: App: "Root profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:52:33: "Database was open successfully"
+2024-06-05 21:52:33: "Checking for database schema update..."
+2024-06-05 21:52:33: "Current database version", "null"
+2024-06-05 21:52:33: "Upgrading database from version 0"
+2024-06-05 21:52:33: "Converting database to version 1"
+2024-06-05 21:52:33: "Converting database to version 2"
+2024-06-05 21:52:33: "Converting database to version 3"
+2024-06-05 21:52:33: "Converting database to version 4"
+2024-06-05 21:52:33: "Converting database to version 5"
+2024-06-05 21:52:33: "Converting database to version 6"
+2024-06-05 21:52:33: "Converting database to version 7"
+2024-06-05 21:52:33: "Converting database to version 8"
+2024-06-05 21:52:33: "Converting database to version 9"
+2024-06-05 21:52:33: "Converting database to version 10"
+2024-06-05 21:52:33: "Converting database to version 11"
+2024-06-05 21:52:33: "Converting database to version 12"
+2024-06-05 21:52:33: "Converting database to version 13"
+2024-06-05 21:52:33: "Converting database to version 14"
+2024-06-05 21:52:33: "Converting database to version 15"
+2024-06-05 21:52:33: "Converting database to version 16"
+2024-06-05 21:52:33: "Converting database to version 17"
+2024-06-05 21:52:33: "Converting database to version 18"
+2024-06-05 21:52:33: "Converting database to version 19"
+2024-06-05 21:52:33: "Converting database to version 20"
+2024-06-05 21:52:33: "Converting database to version 21"
+2024-06-05 21:52:33: "Converting database to version 22"
+2024-06-05 21:52:33: "Converting database to version 23"
+2024-06-05 21:52:33: "Converting database to version 24"
+2024-06-05 21:52:33: "Converting database to version 25"
+2024-06-05 21:52:33: "Converting database to version 26"
+2024-06-05 21:52:33: "Converting database to version 27"
+2024-06-05 21:52:33: "Converting database to version 28"
+2024-06-05 21:52:33: "Converting database to version 29"
+2024-06-05 21:52:33: "Converting database to version 30"
+2024-06-05 21:52:33: "Converting database to version 31"
+2024-06-05 21:52:33: "Converting database to version 32"
+2024-06-05 21:52:33: "Converting database to version 33"
+2024-06-05 21:52:33: "Converting database to version 34"
+2024-06-05 21:52:33: "Migration failed with fallback and will not be repeated - saving version number"
+2024-06-05 21:52:33: "Converting database to version 35"
+2024-06-05 21:52:33: "Converting database to version 36"
+2024-06-05 21:52:33: "Converting database to version 37"
+2024-06-05 21:52:33: "Converting database to version 38"
+2024-06-05 21:52:33: "Converting database to version 39"
+2024-06-05 21:52:33: "Converting database to version 40"
+2024-06-05 21:52:33: "Converting database to version 41"
+2024-06-05 21:52:33: "Converting database to version 42"
+2024-06-05 21:52:33: "Converting database to version 43"
+2024-06-05 21:52:33: "Converting database to version 44"
+2024-06-05 21:52:33: "Converting database to version 45"
+2024-06-05 21:52:33: "Converting database to version 46"
+2024-06-05 21:52:33: "New version: 46. Previously recorded version: 0"
+2024-06-05 21:52:33: "Initializing tables..."
+2024-06-05 21:52:33: "KeychainService: checking if keychain supported"
+2024-06-05 21:52:33: "KeychainService: could not set test password - keychain support will be disabled"
+2024-06-05 21:52:33: e2ee/utils: "Master password is not set - trying to get it from the active master key..."
+2024-06-05 21:52:33: handleSyncStartupOperation: "Processing operation:", "0"
+2024-06-05 21:52:33: App: "Client ID: ab52d784cfc04747a9e103b4e59dbc11"
+2024-06-05 21:52:33: "First start: detected locale as en_GB"
+2024-06-05 21:52:33: models/Setting: "Skipping all default migrations..."
+2024-06-05 21:52:33: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:33: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:33: "ResourceFetcher: Auto-add resources: Mode: always"
+2024-06-05 21:52:33: "ResourceFetcher: Auto-added resources: 0"
+2024-06-05 21:52:33: "Running migration: 20"
+2024-06-05 21:52:33: "Running migration: 27"
+2024-06-05 21:52:33: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 21:52:33: "Running migration: 33"
+2024-06-05 21:52:33: "SearchEngine: Updating FTS table..."
+2024-06-05 21:52:33: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:52:33: "SearchEngine: Updated FTS table in 5ms. Inserted: 0. Deleted: 0"
+2024-06-05 21:52:33: "Running migration: 35"
+2024-06-05 21:52:33: "SearchEngine: Updating FTS table..."
+2024-06-05 21:52:33: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:52:33: "SearchEngine: Updated FTS table in 4ms. Inserted: 0. Deleted: 0"
+2024-06-05 21:52:33: "Running migration: 42"
+2024-06-05 21:52:33: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:52:33: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:33: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:33: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:52:33: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:33: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:33: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:52:33: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:33: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:33: "app.start: doing regular boot"
+2024-06-05 21:52:34: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:52:34: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:34: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:34: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:52:34: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:34: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:34: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:52:34: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:52:34: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:52:34: RevisionService: "runInBackground: Starting background service with revision collection interval 600000"
+2024-06-05 21:52:34: PluginService: "Loading plugin from /home/fx/.config/joplin-desktop/cache/io.github.jackgruber.backup"
+2024-06-05 21:52:34: SpellCheckerServiceDriverNative: "Set effective languages to "en-US""
+2024-06-05 21:52:34: SpellCheckerServiceDriverNative: "Set effective languages to "en-US""
+2024-06-05 21:52:35: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:52:35: "Preparing scheduled sync"
+2024-06-05 21:52:35: "Sync cancelled - no sync target is selected."
+2024-06-05 21:52:35: "Updating all notifications..."
+2024-06-05 21:52:35: "Garbage collecting alarms..."
+2024-06-05 21:52:36: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:52:38: RevisionService: "maintenance: Starting..."
+2024-06-05 21:52:38: RevisionService: "maintenance: Service is enabled"
+2024-06-05 21:52:38: RevisionService: "collectRevisions: Created revisions for 0 notes"
+2024-06-05 21:52:38: RevisionService: "maintenance: Done in 200ms"
+2024-06-05 21:52:43: "SearchEngine: Updating FTS table..."
+2024-06-05 21:52:43: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:52:43: "SearchEngine: Updated FTS table in 110ms. Inserted: 5. Deleted: 0"
+2024-06-05 21:53:00: App: "Profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:53:00: App: "Root profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:53:00: "Database was open successfully"
+2024-06-05 21:53:00: "Checking for database schema update..."
+2024-06-05 21:53:00: "Current database version", "{"version":46,"table_fields_version":46}"
+2024-06-05 21:53:00: "Upgrading database from version 46"
+2024-06-05 21:53:00: "New version: 46. Previously recorded version: 46"
+2024-06-05 21:53:00: "KeychainService: checking if keychain supported"
+2024-06-05 21:53:00: "KeychainService: check was already done - skipping. Supported:", "0"
+2024-06-05 21:53:00: e2ee/utils: "Master password is not set - trying to get it from the active master key..."
+2024-06-05 21:53:00: handleSyncStartupOperation: "Processing operation:", "0"
+2024-06-05 21:53:00: App: "Client ID: ab52d784cfc04747a9e103b4e59dbc11"
+2024-06-05 21:53:00: models/Setting: "Applying default migrations..."
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: "ResourceFetcher: Auto-add resources: Mode: always"
+2024-06-05 21:53:00: "ResourceFetcher: Auto-added resources: 0"
+2024-06-05 21:53:00: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: "app.start: doing regular boot"
+2024-06-05 21:53:00: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:00: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:00: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:00: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 21:53:00: RevisionService: "runInBackground: Starting background service with revision collection interval 600000"
+2024-06-05 21:53:00: PluginService: "Loading plugin from /home/fx/.config/joplin-desktop/cache/io.github.jackgruber.backup"
+2024-06-05 21:53:00: SpellCheckerServiceDriverNative: "Set effective languages to "en-US""
+2024-06-05 21:53:01: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:53:01: "Preparing scheduled sync"
+2024-06-05 21:53:01: "Sync cancelled - no sync target is selected."
+2024-06-05 21:53:01: "Updating all notifications..."
+2024-06-05 21:53:01: "Garbage collecting alarms..."
+2024-06-05 21:53:02: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:53:04: RevisionService: "maintenance: Starting..."
+2024-06-05 21:53:04: RevisionService: "maintenance: Service is enabled"
+2024-06-05 21:53:04: RevisionService: "collectRevisions: Created revisions for 0 notes"
+2024-06-05 21:53:04: RevisionService: "maintenance: Done in 109ms"
+2024-06-05 21:53:10: "SearchEngine: Updating FTS table..."
+2024-06-05 21:53:10: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:53:10: "SearchEngine: Updated FTS table in 6ms. Inserted: 0. Deleted: 0"
+2024-06-05 21:53:19: App: "Profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:53:19: App: "Root profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:53:19: "Database was open successfully"
+2024-06-05 21:53:19: "Checking for database schema update..."
+2024-06-05 21:53:19: "Current database version", "{"version":46,"table_fields_version":46}"
+2024-06-05 21:53:19: "Upgrading database from version 46"
+2024-06-05 21:53:19: "New version: 46. Previously recorded version: 46"
+2024-06-05 21:53:19: "KeychainService: checking if keychain supported"
+2024-06-05 21:53:19: "KeychainService: check was already done - skipping. Supported:", "0"
+2024-06-05 21:53:19: e2ee/utils: "Master password is not set - trying to get it from the active master key..."
+2024-06-05 21:53:19: handleSyncStartupOperation: "Processing operation:", "0"
+2024-06-05 21:53:19: App: "Client ID: ab52d784cfc04747a9e103b4e59dbc11"
+2024-06-05 21:53:19: models/Setting: "Applying default migrations..."
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: "ResourceFetcher: Auto-add resources: Mode: always"
+2024-06-05 21:53:19: "ResourceFetcher: Auto-added resources: 0"
+2024-06-05 21:53:19: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: "app.start: doing regular boot"
+2024-06-05 21:53:19: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:53:19: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:53:19: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:53:19: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 21:53:19: RevisionService: "runInBackground: Starting background service with revision collection interval 600000"
+2024-06-05 21:53:19: PluginService: "Loading plugin from /home/fx/.config/joplin-desktop/cache/io.github.jackgruber.backup"
+2024-06-05 21:53:19: SpellCheckerServiceDriverNative: "Set effective languages to "en-US""
+2024-06-05 21:53:20: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:53:20: "Preparing scheduled sync"
+2024-06-05 21:53:20: "Sync cancelled - no sync target is selected."
+2024-06-05 21:53:20: "Updating all notifications..."
+2024-06-05 21:53:20: "Garbage collecting alarms..."
+2024-06-05 21:53:21: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:53:23: RevisionService: "maintenance: Starting..."
+2024-06-05 21:53:23: RevisionService: "maintenance: Service is enabled"
+2024-06-05 21:53:23: RevisionService: "collectRevisions: Created revisions for 0 notes"
+2024-06-05 21:53:23: RevisionService: "maintenance: Done in 110ms"
+2024-06-05 21:53:29: "SearchEngine: Updating FTS table..."
+2024-06-05 21:53:29: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:53:29: "SearchEngine: Updated FTS table in 8ms. Inserted: 0. Deleted: 0"
+2024-06-05 21:53:49: "ResourceService::indexNoteResources: Start"
+2024-06-05 21:53:49: "ResourceService::indexNoteResources: Completed"
+2024-06-05 21:53:49: "ResourceService::deleteOrphanResources:", "[]"
+2024-06-05 21:53:59: "SearchEngine: Updating FTS table..."
+2024-06-05 21:53:59: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:53:59: "SearchEngine: Updated FTS table in 8ms. Inserted: 0. Deleted: 0"
+2024-06-05 21:55:27: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 55" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:55:27: JoplinServerApi: "Code:", "403"
+2024-06-05 21:55:27: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:27: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:27: JoplinServerApi: "Session expired or invalid - trying to login again", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:30: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 55" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:55:30: JoplinServerApi: "Code:", "403"
+2024-06-05 21:55:30: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:30: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:30: SyncTargetJoplinServer: "Could not fetch or parse info.json:", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:33: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 55" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:55:33: JoplinServerApi: "Code:", "403"
+2024-06-05 21:55:33: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:33: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:33: JoplinServerApi: "Session expired or invalid - trying to login again", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:34: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 55" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:55:34: JoplinServerApi: "Code:", "403"
+2024-06-05 21:55:34: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:34: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:53: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 56" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:55:53: JoplinServerApi: "Code:", "403"
+2024-06-05 21:55:53: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:53: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:55:53: JoplinServerApi: "Session expired or invalid - trying to login again", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:56:09: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 56" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:56:09: JoplinServerApi: "Code:", "ECONNRESET"
+2024-06-05 21:56:09: JoplinServerApi: "FetchError: request to https://api.joplincloud.com/api/sessions failed, reason: Client network socket disconnected before secure TLS connection was established
+Code: ECONNRESET
+FetchError: request to https://api.joplincloud.com/api/sessions failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:514:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+2024-06-05 21:56:09: JoplinServerApi: "Could not acquire session:", "undefined", "
+", "FetchError: request to https://api.joplincloud.com/api/sessions failed, reason: Client network socket disconnected before secure TLS connection was established
+Code: ECONNRESET
+FetchError: request to https://api.joplincloud.com/api/sessions failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:514:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+2024-06-05 21:56:09: SyncTargetJoplinServer: "Could not fetch or parse info.json:", "FetchError: request to https://api.joplincloud.com/api/sessions failed, reason: Client network socket disconnected before secure TLS connection was established
+Code: ECONNRESET
+FetchError: request to https://api.joplincloud.com/api/sessions failed, reason: Client network socket disconnected before secure TLS connection was established
+    at ClientRequest.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/node_modules/node-fetch/lib/index.js:1491:11)
+    at ClientRequest.emit (node:events:514:28)
+    at TLSSocket.socketErrorListener (node:_http_client:501:9)
+    at TLSSocket.emit (node:events:514:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)"
+2024-06-05 21:56:10: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 56" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:56:10: JoplinServerApi: "Code:", "403"
+2024-06-05 21:56:10: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:56:11: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:56:11: JoplinServerApi: "Session expired or invalid - trying to login again", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:56:14: JoplinServerApi: "curl -v -X POST -H "X-API-MIN-VERSION: 2.6.0" -H "Content-Type: application/json" -H "Content-Length: 56" --data '{"email":"1096015776@qq.com","password":"******"}' 'https://api.joplincloud.com/api/sessions'"
+2024-06-05 21:56:14: JoplinServerApi: "Code:", "403"
+2024-06-05 21:56:14: JoplinServerApi: "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:56:14: JoplinServerApi: "Could not acquire session:", "POST api/sessions: Invalid credentials (403): {"error":"Invalid credentials"}", "
+", "Error: Invalid credentials
+Code: 403
+Error: Invalid credentials
+    at newError (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:193:28)
+    at JoplinServerApi.<anonymous> (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:217:31)
+    at Generator.next (<anonymous>)
+    at fulfilled (/usr/lib/joplin-desktop/app.asar/node_modules/@joplin/lib/JoplinServerApi.js:5:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+2024-06-05 21:56:50: "Saving updated OneDrive auth."
+2024-06-05 21:58:19: "Running background sync on timer..."
+2024-06-05 21:58:19: "Preparing scheduled sync"
+2024-06-05 21:58:19: "Synchroniser is missing credentials - manual sync required to authenticate."
+2024-06-05 21:58:29: "Saving updated OneDrive auth."
+2024-06-05 21:58:30: "Saving updated OneDrive auth."
+2024-06-05 21:58:30: "Preparing scheduled sync"
+2024-06-05 21:58:34: "Starting scheduled sync"
+2024-06-05 21:58:34: Synchronizer: "Sync: starting: Starting synchronisation to target 3... supportsAccurateTimestamp = false; supportsMultiPut = false} [1717595914267]"
+2024-06-05 21:58:34: Synchronizer: "Indexing resources..."
+2024-06-05 21:58:34: "ResourceService::indexNoteResources: Start"
+2024-06-05 21:58:34: "ResourceService::indexNoteResources: Completed"
+2024-06-05 21:58:36: Synchronizer: "Sync target remote info:", "{"version_":0,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 21:58:36: Synchronizer: "Sync target is new - setting it up..."
+2024-06-05 21:58:38: "MigrationHandler: Sync target version is 0 or 1 - creating "locks" and "temp" directory:", "{"version":0}"
+2024-06-05 21:58:52: App: "Profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:58:52: App: "Root profile directory: /home/fx/.config/joplin-desktop"
+2024-06-05 21:58:52: "Database was open successfully"
+2024-06-05 21:58:52: "Checking for database schema update..."
+2024-06-05 21:58:52: "Current database version", "{"version":46,"table_fields_version":46}"
+2024-06-05 21:58:52: "Upgrading database from version 46"
+2024-06-05 21:58:52: "New version: 46. Previously recorded version: 46"
+2024-06-05 21:58:52: "KeychainService: checking if keychain supported"
+2024-06-05 21:58:52: "KeychainService: check was already done - skipping. Supported:", "0"
+2024-06-05 21:58:52: e2ee/utils: "Master password is not set - trying to get it from the active master key..."
+2024-06-05 21:58:52: handleSyncStartupOperation: "Processing operation:", "0"
+2024-06-05 21:58:52: App: "Client ID: ab52d784cfc04747a9e103b4e59dbc11"
+2024-06-05 21:58:52: models/Setting: "Applying default migrations..."
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: "ResourceFetcher: Auto-add resources: Mode: always"
+2024-06-05 21:58:52: "ResourceFetcher: Auto-added resources: 0"
+2024-06-05 21:58:52: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: "app.start: doing regular boot"
+2024-06-05 21:58:52: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: App: ""syncInfoCache" was changed - setting up encryption related code"
+2024-06-05 21:58:52: e2ee/utils: "Trying to load 0 master keys..."
+2024-06-05 21:58:52: e2ee/utils: "Loaded master keys: 0"
+2024-06-05 21:58:52: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 21:58:52: RevisionService: "runInBackground: Starting background service with revision collection interval 600000"
+2024-06-05 21:58:52: PluginService: "Loading plugin from /home/fx/.config/joplin-desktop/cache/io.github.jackgruber.backup"
+2024-06-05 21:58:53: SpellCheckerServiceDriverNative: "Set effective languages to "en-US""
+2024-06-05 21:58:54: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:58:54: "Preparing scheduled sync"
+2024-06-05 21:58:54: "Saving updated OneDrive auth."
+2024-06-05 21:58:55: "Starting scheduled sync"
+2024-06-05 21:58:55: Synchronizer: "Sync: starting: Starting synchronisation to target 3... supportsAccurateTimestamp = false; supportsMultiPut = false} [1717595935878]"
+2024-06-05 21:58:55: Synchronizer: "Indexing resources..."
+2024-06-05 21:58:55: "ResourceService::indexNoteResources: Start"
+2024-06-05 21:58:56: Synchronizer: "Sync: cancelling"
+2024-06-05 21:58:56: "ResourceService::indexNoteResources: Completed"
+2024-06-05 21:58:56: RevisionService: "maintenance: Starting..."
+2024-06-05 21:58:56: RevisionService: "maintenance: Service is enabled"
+2024-06-05 21:58:56: RevisionService: "collectRevisions: Created revisions for 0 notes"
+2024-06-05 21:58:56: RevisionService: "maintenance: Done in 105ms"
+2024-06-05 21:58:58: Synchronizer: "Sync target remote info:", "{"version_":0,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 21:58:58: Synchronizer: "Sync target is new - setting it up..."
+2024-06-05 21:59:00: "MigrationHandler: Sync target version is 0 or 1 - creating "locks" and "temp" directory:", "{"version":0}"
+2024-06-05 21:59:02: "SearchEngine: Updating FTS table..."
+2024-06-05 21:59:02: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:59:02: "SearchEngine: Updated FTS table in 7ms. Inserted: 0. Deleted: 0"
+2024-06-05 21:59:04: "MigrationHandler: Acquiring exclusive lock"
+2024-06-05 21:59:12: "MigrationHandler: Acquired exclusive lock:", "{"id":null,"type":2,"clientType":1,"clientId":"ab52d784cfc04747a9e103b4e59dbc11","updatedTime":1717595949000}"
+2024-06-05 21:59:12: "MigrationHandler: Migrating from version 0 to version 1"
+2024-06-05 21:59:17: "MigrationHandler: Done migrating from version 0 to version 1"
+2024-06-05 21:59:17: "MigrationHandler: Migrating from version 1 to version 2"
+2024-06-05 21:59:20: "MigrationHandler: Done migrating from version 1 to version 2"
+2024-06-05 21:59:20: "MigrationHandler: Migrating from version 2 to version 3"
+2024-06-05 21:59:21: "MigrationHandler: Done migrating from version 2 to version 3"
+2024-06-05 21:59:21: "MigrationHandler: Releasing exclusive lock"
+2024-06-05 21:59:22: "ResourceService::indexNoteResources: Start"
+2024-06-05 21:59:22: "ResourceService::indexNoteResources: Completed"
+2024-06-05 21:59:22: "ResourceService::deleteOrphanResources:", "[]"
+2024-06-05 21:59:25: Synchronizer: "Sync target is already setup - checking it..."
+2024-06-05 21:59:25: Synchronizer: "Sync target local info:", "{"version_":3,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 21:59:30: Synchronizer: "Synchronisation was cancelled."
+2024-06-05 21:59:30: Synchronizer: "Sync: finished: Synchronisation finished [1717595935878]"
+2024-06-05 21:59:30: Synchronizer: "Operations completed: "
+2024-06-05 21:59:30: Synchronizer: "cancelling: 1"
+2024-06-05 21:59:30: Synchronizer: "Total folders: 1"
+2024-06-05 21:59:30: Synchronizer: "Total notes: 5"
+2024-06-05 21:59:30: Synchronizer: "Total resources: 3"
+2024-06-05 21:59:30: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 21:59:30: "Updating all notifications..."
+2024-06-05 21:59:30: "Garbage collecting alarms..."
+2024-06-05 21:59:30: "Sync has finished and note has never been changed - reloading it"
+2024-06-05 21:59:31: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 21:59:32: "SearchEngine: Updating FTS table..."
+2024-06-05 21:59:32: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 21:59:32: "SearchEngine: Updated FTS table in 5ms. Inserted: 0. Deleted: 0"
+2024-06-05 22:04:30: "Running background sync on timer..."
+2024-06-05 22:04:30: "Preparing scheduled sync"
+2024-06-05 22:04:30: "Starting scheduled sync"
+2024-06-05 22:04:30: Synchronizer: "Sync: starting: Starting synchronisation to target 3... supportsAccurateTimestamp = false; supportsMultiPut = false} [1717596270356]"
+2024-06-05 22:04:30: Synchronizer: "Indexing resources..."
+2024-06-05 22:04:30: "ResourceService::indexNoteResources: Start"
+2024-06-05 22:04:30: "ResourceService::indexNoteResources: Completed"
+2024-06-05 22:04:32: Synchronizer: "Sync target remote info:", "{"version_":3,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 22:04:32: Synchronizer: "Sync target is already setup - checking it..."
+2024-06-05 22:04:32: Synchronizer: "Sync target local info:", "{"version_":3,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 22:04:36: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 6f11fd1b2d14479a9a3103aba25f4a66)"
+2024-06-05 22:04:37: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local c78af0570fdf46e49d9d44723af25000)"
+2024-06-05 22:04:39: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 2b70770b11674f84983dafa90a3a617d)"
+2024-06-05 22:04:40: "SearchEngine: Updating FTS table..."
+2024-06-05 22:04:40: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 22:04:40: "SearchEngine: Updated FTS table in 6ms. Inserted: 0. Deleted: 0"
+2024-06-05 22:04:41: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 3b2d6bd672c04e9799c4d8ecfbaf88d6)"
+2024-06-05 22:04:42: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Note: (Local 17d447f4b0ce4b3e9f3277872a9f3790)"
+2024-06-05 22:04:44: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Folder: (Local 995f173203b641518faf33f0fec02efe)"
+2024-06-05 22:04:45: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Resource: (Local 5aa719c637484c3f822c39c6d7e7ab5b)"
+2024-06-05 22:04:48: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Resource: (Local f62291cabf16409894a80009e5d15f63)"
+2024-06-05 22:04:52: Synchronizer: "Sync: createRemote: remote does not exist, and local is new and has never been synced: Resource: (Local c525c3a1f3d34387ba2111bed7037859)"
+2024-06-05 22:04:55: Synchronizer: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2024-06-05 22:04:55: Synchronizer: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2024-06-05 22:04:56: Synchronizer: "BasicDelta: Report: {"timestamp":0,"older":0,"newer":10,"equal":0}"
+2024-06-05 22:04:56: Synchronizer: "supportsDeltaWithItems = ", "false"
+2024-06-05 22:04:56: Synchronizer: "Sync: fetchingTotal: Fetching delta items from sync target"
+2024-06-05 22:04:56: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:04:56: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:04:58: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:04:58: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:04:58: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:04:58: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:05:00: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:05:00: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:05:00: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:05:00: Synchronizer: "Sync: fetchingProcessed: Processing fetched item"
+2024-06-05 22:05:03: Synchronizer: "Sync: finished: Synchronisation finished [1717596270356]"
+2024-06-05 22:05:03: Synchronizer: "Operations completed: "
+2024-06-05 22:05:03: Synchronizer: "createRemote: 9"
+2024-06-05 22:05:03: Synchronizer: "fetchingTotal: 10"
+2024-06-05 22:05:03: Synchronizer: "fetchingProcessed: 10"
+2024-06-05 22:05:03: Synchronizer: "Total folders: 1"
+2024-06-05 22:05:03: Synchronizer: "Total notes: 5"
+2024-06-05 22:05:03: Synchronizer: "Total resources: 3"
+2024-06-05 22:05:03: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 22:05:03: "Sync has finished and note has never been changed - reloading it"
+2024-06-05 22:05:04: "DecryptionWorker: cannot start because no master key is currently loaded."
+2024-06-05 22:08:52: RevisionService: "maintenance: Starting..."
+2024-06-05 22:08:52: RevisionService: "maintenance: Service is enabled"
+2024-06-05 22:08:52: RevisionService: "collectRevisions: Created revisions for 0 notes"
+2024-06-05 22:08:52: RevisionService: "maintenance: Done in 111ms"
+2024-06-05 22:10:03: "Running background sync on timer..."
+2024-06-05 22:10:03: "Preparing scheduled sync"
+2024-06-05 22:10:03: "Starting scheduled sync"
+2024-06-05 22:10:03: Synchronizer: "Sync: starting: Starting synchronisation to target 3... supportsAccurateTimestamp = false; supportsMultiPut = false} [1717596603821]"
+2024-06-05 22:10:03: Synchronizer: "Indexing resources..."
+2024-06-05 22:10:03: "ResourceService::indexNoteResources: Start"
+2024-06-05 22:10:03: "ResourceService::indexNoteResources: Completed"
+2024-06-05 22:10:05: Synchronizer: "Sync target remote info:", "{"version_":3,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 22:10:05: Synchronizer: "Sync target is already setup - checking it..."
+2024-06-05 22:10:05: Synchronizer: "Sync target local info:", "{"version_":3,"masterKeys_":[],"appMinVersion_":"0.0.0","e2ee_":{"value":false,"updatedTime":0},"activeMasterKeyId_":{"value":"","updatedTime":0},"ppk_":{"value":null,"updatedTime":0}}"
+2024-06-05 22:10:11: Synchronizer: "TaskQueue.stop: syncDownload: waiting for tasks to complete: 0"
+2024-06-05 22:10:11: Synchronizer: "TaskQueue.stop: syncDownload: Done, waited for 0"
+2024-06-05 22:10:13: Synchronizer: "BasicDelta: Report: {"timestamp":1717596295000,"older":9,"newer":0,"equal":1}"
+2024-06-05 22:10:13: Synchronizer: "supportsDeltaWithItems = ", "false"
+2024-06-05 22:10:13: Synchronizer: "Sync: fetchingTotal: Fetching delta items from sync target"
+2024-06-05 22:10:13: "SearchEngine: Updating FTS table..."
+2024-06-05 22:10:14: "Updating items_normalized from", "{"updated_time":0,"id":""}"
+2024-06-05 22:10:14: "SearchEngine: Updated FTS table in 7ms. Inserted: 0. Deleted: 0"
+2024-06-05 22:10:14: Synchronizer: "Sync: finished: Synchronisation finished [1717596603821]"
+2024-06-05 22:10:14: Synchronizer: "Operations completed: "
+2024-06-05 22:10:14: Synchronizer: "fetchingTotal: -"
+2024-06-05 22:10:14: Synchronizer: "Total folders: 1"
+2024-06-05 22:10:14: Synchronizer: "Total notes: 5"
+2024-06-05 22:10:14: Synchronizer: "Total resources: 3"
+2024-06-05 22:10:14: checkDisabledSyncItemsNotification: "No errors: Hiding notification"
+2024-06-05 22:10:14: "Sync has finished and note has never been changed - reloading it"
+2024-06-05 22:10:15: "DecryptionWorker: cannot start because no master key is currently loaded."

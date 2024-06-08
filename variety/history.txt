@@ -1,0 +1,5 @@
+0
+/usr/share/backgrounds/arcolinux-wayfire/wayfire-6.jpg
+/usr/share/backgrounds/arcolinux-wayfire/wayfire-7.jpg
+/usr/share/backgrounds/arcolinux/dlanham-threadtroll-3200x2000.jpg
+/usr/share/backgrounds/arcolinux/arco-wallpaper.jpg
